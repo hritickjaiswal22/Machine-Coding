@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .icon {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.wrapper .icon.colored {
+  color: yellow;
+}
+
+span {
+  font-size: 3rem;
+}
