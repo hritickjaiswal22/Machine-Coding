@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 50rem;
+  height: 55rem;
+  border: 1px solid grey;
+}
+
+.box {
+  width: 4.98rem;
+  height: 4.98rem;
+  border: 0.1px solid gray;
+  float: left;
+}
